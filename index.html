@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Guess my number</title>
+</head>
+<body>
+    <header>
+        <button class="btn-head">Again!</button>
+        <p class="head-p">(Between 1 and 20)</p>
+        <h1>Guess my number!</h1>
+    </header>
+    <div class="number">?</div>
+    <section class="container">
+        <div class="grid-container">
+            <div class="left">
+                <input type="number" class="guess" name="" id="">
+                <button class="btn-input">Check!</button>
+               </div>
+               <div class="right">
+                   <p class="message">Start guessing...</p>
+                   <p class="score-label">💖 Score: <span class="score">20</span></p>
+                   <p class="high-score">💣Highscore:<span class="high">0</span></p>
+               </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+<!-- /when guess is low
+        // }else if(inputValue < randomNumber){
+        //     if(score > 1){
+        //         document.querySelector(".message").textContent = "Too low📉" ;
+        //         score--;
+        //         document.querySelector(".score").textContent = score;
+        //         }else{
+        //          document.querySelector(".message").textContent = "You lost the game😭" ; 
+        //  -->
